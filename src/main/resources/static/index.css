@@ -1,0 +1,41 @@
+header {
+    height: 40px;
+    width: 100%;
+    font-family: Arial;
+    font-size: 29px;
+    text-align: center;
+    color: cyan;
+    background-color: #635e27;
+
+    opacity: .6;
+}
+header span {
+    margin-left: 20px;
+}
+.content {
+    position: absolute;
+    bottom: 0;
+    top: 50px;
+    width: 100%;
+    background-color: coral;
+    height: 100%;
+}
+body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+.by {
+    margin-top: 120px;
+    display: block;
+    text-align: right;
+}
+.fnt {
+    font-size: 1.3rem;
+    color: white;
+}
+#result {
+    display: block;
+    margin-top: 42px;
+    text-align: center;
+}
